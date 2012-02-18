@@ -12,7 +12,7 @@
   &.right  { margin-left:  5px; }
   &.bottom { margin-top:   5px; }
   &.left   { margin-left: -5px; }
-  &.top .arrow    { @include azimuth; }
+  &.top .arrow    { @include popoverArrow-top; }
   &.right .arrow  { @include popoverArrow-right; }
   &.bottom .arrow { @include popoverArrow-bottom; }
   &.left .arrow   { @include popoverArrow-left; }
